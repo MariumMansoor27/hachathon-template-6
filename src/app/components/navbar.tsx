@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Navbar = () => {
-  let navItems = [
+  const navItems = [
     {
       name: "Home",
       link: "#",

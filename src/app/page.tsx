@@ -1,6 +1,11 @@
-import Image from "next/image";
+
+
+
+import ProductsGrid from "./components/productsGrid";
 import Hero from "./components/hero";
 import Range from "./components/range";
+import RoomInspiration from "./components/roomInspiration";
+
 
 
 export default function Home() {
@@ -8,6 +13,8 @@ export default function Home() {
     <div>
       <Hero/>
       <Range/>
+      <ProductsGrid/>
+      <RoomInspiration/>
     </div>
   )
   
